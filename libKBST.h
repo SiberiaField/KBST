@@ -1,0 +1,10 @@
+#pragma once
+#include "constructKBST.h"
+#include "insertKBST.h"
+#include "nNearestNeighbor.h"
+#include "pointsInRectangle.h"
+#include "pointsInSphere.h"
+#include "removeKBST.h"
+#include "searchKBST.h"
+#include "pointData.h"
+#include "KBSTnode.h"
