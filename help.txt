@@ -504,6 +504,19 @@ int insertPriQ(priQ* Q, double dist, pointData* point):
 Выходные данные:
  1 - если вставка удачная, 0 - в противном случае.
 
+"makeKBSTnode.c"
+--makeKBSTnode--
+KBSTnode* makeKBSTnode(pointData* point, int dimension, int level):
+Выделяет память под новую вершину KBST.
+
+Входные данные:
+ pointData* point - указатель на значение точки новой вершины
+ int dimension - мерность вершины
+ int level - уровень вершины
+
+Выходные данные:
+ Возвращает указатель но новую вершину.
+
 
 
 
