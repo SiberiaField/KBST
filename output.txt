@@ -1,0 +1,15 @@
+TREE:
+A(F(G(, ), D(, C(, ))), H(E(, ), B(, )))
+
+TESTS:
+Neighbors: B(1.0, -1.0); G(-1.5, -2.0); 
+In sphere: F 2.500; G 1.118; B 2.121; 
+In rectangle: F G D H B 
+Remove A and H:
+B(F(G(, ), D(, C(, ))), E(, ))
+Remove H again:
+B(F(G(, ), D(, C(, ))), E(, ))
+Insert A:
+Insert complete!
+B(F(G(, ), D(, C(A(, ), ))), E(, ))
+END
